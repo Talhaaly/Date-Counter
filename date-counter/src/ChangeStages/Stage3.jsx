@@ -3,7 +3,7 @@ import React from 'react'
 
 function Stage3({count2}){
   const date = new Date()
-  const check = date.setDate(9 + count2)
+  const check = date.setDate(12 + count2)
   const convertTostring = date.toDateString()
   console.log(date);
   console.log(convertTostring);
