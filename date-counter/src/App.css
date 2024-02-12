@@ -1,0 +1,13 @@
+.dateCounter{
+  background-color: #d5d9e1;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counterParent{
+  display: flex;
+  justify-content: center;
+ height: 70vh;
+ align-items: center;
+}
