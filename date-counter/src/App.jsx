@@ -1,5 +1,6 @@
 
-import Stage1 from './ChangeStages/Stage1'
+import Stageone from './ChangeStages/Stageone'
+
 import Stage2 from './ChangeStages/Stage2'
 import Stage3 from './ChangeStages/Stage3'
 
@@ -14,7 +15,7 @@ function App() {
     <>
      <div className='counterParent'>
     <div className='dateCounter' >
-    <Stage1 count={count} setCount={setCount}/>
+    <Stageone count={count} setCount={setCount}/>
     <Stage2 count2={count2} count={count} setCount2={setCount2}/>
     <Stage3 count2={count2}/>
     </div>

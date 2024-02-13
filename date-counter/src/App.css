@@ -1,13 +1,17 @@
-.dateCounter{
-  background-color: #d5d9e1;
-  width: 420px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.counterParent{
+.dateCounter {
+  background-color: #a1b9e6;
+  width: 450px;
+  height: 40vh;
   display: flex;
   justify-content: center;
- height: 70vh;
- align-items: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.counterParent {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
 }

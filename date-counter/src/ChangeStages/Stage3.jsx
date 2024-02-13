@@ -8,7 +8,7 @@ function Stage3({count2}){
   console.log(date);
   console.log(convertTostring);
   return(
-     <p style={{fontSize:"22px", fontWeight:"500"}}>{count2 === 0 ?`Today is `+ convertTostring: `${count2} days from Today is `+ convertTostring } </p>
+     <p className='mb-2 mt-3' style={{fontSize:"22px", fontWeight:"500"}}>{count2 === 0 ?`Today is `+ convertTostring: `${count2} days from Today is `+ convertTostring } </p>
   )
 }
 export default Stage3
